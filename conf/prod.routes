@@ -1,0 +1,4 @@
+->      /                                                  health.Routes
+GET     /roadmaps/disa-roadmap           controllers.Default.redirect(to = "/roadmaps/disa-roadmap/")
+GET     /roadmaps/disa-roadmap/          controllers.Assets.at(path="/public", file="index.html")
+GET     /roadmaps/disa-roadmap/*file     controllers.Assets.at(path="/public", file)
