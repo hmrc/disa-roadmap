@@ -5,45 +5,35 @@ weight: 1
 
 # ISA Returns API roadmap
 
-**Version 0.1** issued 25 November 2025
+This roadmap sets out the current release schedule for the ISA Returns API. It is intended for anyone involved in building or delivering software that uses the API.
 
-***
+New features are released into the sandbox environment for testing with example data. Once the features are tested successfully, they are deployed to production to be accessed by API consumers.
 
-This roadmap sets out planned changes to the ISA Returns API. It is intended for anyone involved in building or delivering software that uses the API.
-
-The dates in this roadmap are subject to change.
+Release dates in this roadmap are subject to change in order to adapt to project requirements.
 
 ## Summary
 
-Below is an overview of upcoming ISA Returns API releases. Use it to see key dates and milestones.
+Details of the planned Alpha releases for the ISA Returns API are provided in the table below.
 
-### Phase 1 - 2026 to 2027
+The information in the table includes details about the release version, status, availability (sandbox or production), target dates, and any comments specific to a release.
 
-Phase 1 API releases will be as follows:
+Use these details to support the delivery planning and technical alignment.
 
-- **TBC:** ISA Returns API v1.x (private beta available only to invited ISA managers enrolled for digital ISA reporting)
-- **TBC:** ISA Returns API v1.x (public beta available to all HMRC-approved ISA managers enrolled for digital ISA reporting)
-- **TBC:** ISA Returns API v1.x (general availability for all HMRC-approved ISA managers enrolled for digital ISA reporting)
+## Alpha release - 2026 to 2027
 
-### Phase 2 - 2027 to 2028
+This table lists the API releases planned for delivery during the Alpha release.
 
-Planning is ongoing. Key delivery dates for phase 2 will be published once confirmed.
+| Release | Status | Availability | Target date | Notes |
+| --- | --- | --- | --- | --- |
+| ISA Returns API v1.0 | Private beta | Sandbox | TBC | Only available to invited HMRC-approved ISA managers enrolled for digital ISA reporting, and to third-party organisations authorised to act on their behalf |
+| ISA Returns API v1.0 | Public beta | Sandbox | TBC | Available to all HMRC-approved ISA managers enrolled for digital ISA reporting, and to third-party organisations authorised to act on their behalf |
+| ISA Returns API v1.0 | Live | Production | TBC | Only available to invited HMRC-approved ISA managers enrolled for digital ISA reporting, and to third-party organisations authorised to act on their behalf |
 
-## Details
+## Beta release - 2027 to 2028
 
-Below are the planned releases of the ISA Returns API. The information includes release status, target dates, availability (Sandbox or Production), and whether any changes might break existing integrations. Use it to support delivery planning and technical alignment.
+We are defining the scope of the Beta release. Detailed milestones and features for the Beta release will be added to this roadmap once they are agreed upon.
 
-### Phase 1
-
-This table lists the API releases planned for delivery during phase 1.
-
-| Release | Status | Availability | Target date | Notes | Breaking change? |
-| -------------------- | ------------ | ---------------- | --------------- | ------------------------------------------------------------------------------ | --- |
-| ISA Returns API v1.x | Private beta | Sandbox          | TBC             | Available only to invited HMRC-approved ISA managers enrolled for digital ISA reporting | TBC |
-| ISA Returns API v1.x | Public beta  | Sandbox          | TBC             | Available to all HMRC-approved ISA managers enrolled for digital ISA reporting | TBC |
-| ISA Returns API v1.x | Live         | Production       | TBC             | Available to all HMRC-approved ISA managers enrolled for digital ISA reporting | TBC |
-
-#### API updates during beta
+### API updates during beta release
 
 The API may evolve during beta to support:
 
@@ -58,19 +48,15 @@ Changes will be based on:
 
 All updates will be:
 
-- released first to the Sandbox environment
-- documented in the [ISA Returns API changelog](https://github.com/hmrc/disa-returns) on GitHub
+- released first to the sandbox environment
+- documented on the [ISA Returns API Changelog](https://github.com/hmrc/disa-returns/blob/main/CHANGELOG.md) on GitHub
 
 We aim to avoid breaking changes. Where unavoidable, these will be flagged in advance and scheduled with appropriate notice.
 
-#### Access requirements
+## Access requirements
 
-All ISA managers must be enrolled for digital ISA reporting before using the API. Only HMRC-approved managers can enrol. Organisations not yet approved may apply during registration.
-
-### Phase 2
-
-We are defining the scope of phase 2. Detailed milestones and features will be added to this roadmap when agreed.
+All ISA managers must be enrolled for digital ISA reporting before using the ISA Returns API. Only HMRC-approved managers can enrol. Organisations that are not yet approved by HMRC, may apply during registration.
 
 ## Changelog
 
-To see updates to this roadmap, check the changelog in the [ISA Returns API roadmap](https://github.com/hmrc/disa-roadmap) repository on GitHub.
+To see updates to this roadmap, check the [ISA Returns API Changelog](https://github.com/hmrc/disa-returns/blob/main/CHANGELOG.md) available on the GitHub repository.
